@@ -8,6 +8,17 @@
     <UseWPF>true</UseWPF>
     <UseWindowsForms>true</UseWindowsForms>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <ApplicationIcon>posturr.ico</ApplicationIcon>
+    <AssemblyName>Posturr</AssemblyName>
+    <Product>Posturr for Windows</Product>
+    <Description>Posture monitoring app - a Windows port of Posturr by Tom Lancaster</Description>
+    <Company>Scott Hanselman</Company>
+    <Authors>Scott Hanselman</Authors>
+    <Copyright>Copyright © 2026. Original concept by Tom Lancaster, Cam, and Ben.</Copyright>
+    <RepositoryUrl>https://github.com/shanselman/posturr-windows</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
