@@ -1,0 +1,16 @@
+# Build outputs
+bin/
+obj/
+
+# IDE
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Test screenshots
+*.png
+
+# OS files
+Thumbs.db
+.DS_Store
