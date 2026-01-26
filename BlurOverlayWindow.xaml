@@ -1,0 +1,13 @@
+<Window x:Class="Posturr.BlurOverlayWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent"
+        Topmost="True"
+        ShowInTaskbar="False"
+        ResizeMode="NoResize">
+    <Grid x:Name="MainGrid">
+        <Rectangle x:Name="DimRect" Fill="Black" Opacity="0"/>
+    </Grid>
+</Window>
