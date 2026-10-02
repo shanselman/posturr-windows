@@ -1,17 +1,19 @@
 # Posturr for Windows
 
-A Windows port of the brilliant [Posturr](https://github.com/tldev/posturr) app for macOS.
+An unofficial, fan-made Windows port of the brilliant [Posturr, now Dorso](https://github.com/tldev/dorso) app for macOS.
 
 ## 🙏 Credits & Attribution
 
-**This project is a Windows reimagination of [Posturr](https://github.com/tldev/posturr)** - all credit for the original concept, design, and inspiration goes to:
+**This project is a Windows reimagination of [Posturr / Dorso](https://github.com/tldev/dorso)** - all credit for the original concept, design, and inspiration goes to:
 
 - **[Tom Lancaster](https://github.com/tldev)** - Creator of the original Posturr
-- **Cam** and **Ben** - Contributors to the original project
+- **[Cam](https://github.com/cam-br0wn)** and **Ben** - Credited in this Windows port's original README
 
 The original Posturr is a fantastic macOS app that helps you maintain good posture by detecting when you're slouching and progressively dimming/blurring your screen until you sit up straight. This Windows version attempts to bring that same experience to Windows users.
 
-**Please check out and star the original project: https://github.com/tldev/posturr** ⭐
+We are just fans: this port is not affiliated with or endorsed by the upstream project. The upstream creators retain rights to their original work, and [Tom Lancaster and the upstream maintainers](https://github.com/tldev/dorso) decide the direction and other matters of the macOS project. Windows contributors license only their own contributions; this does not transfer ownership of upstream work or change permissions already granted under its license.
+
+**Please check out and star the original project: https://github.com/tldev/dorso** ⭐
 
 ## How It Works
 
@@ -66,7 +68,11 @@ Note: Unlike the macOS version which uses private CoreGraphics APIs for blur eff
 
 ## License
 
-This project follows the same spirit as the original Posturr. Please see the [original repository](https://github.com/tldev/posturr) for licensing information.
+The source code and documentation are licensed under the [MIT License](LICENSE), matching the [upstream license](https://github.com/tldev/dorso/blob/main/LICENSE). The upstream notice, `Copyright (c) 2025 Posturr Contributors`, is preserved for upstream-derived work; no separate Windows-port copyright notice is added.
+
+MIT permits commercial use, modification, and redistribution of the covered work, subject to preserving the copyright and permission notices and the other terms in `LICENSE`. It does not grant rights to third-party material beyond that material's own license, or permission to imply upstream endorsement.
+
+**Asset and dependency scope:** `posturr.ico` was added in the Windows repository without a recorded source or asset license. Its provenance has not been established, so it is excluded from this new license grant; obtain permission from its rights holder or replace it with an asset of known provenance before redistributing it. The programmatically drawn tray icon is part of the licensed source code. Third-party dependencies, including [Hardcodet.NotifyIcon.Wpf 1.1.0](https://www.nuget.org/packages/Hardcodet.NotifyIcon.Wpf/1.1.0), retain their own licenses and notices. This is not a blanket licensing assurance for every asset, dependency, or historical build artifact.
 
 ---
 
